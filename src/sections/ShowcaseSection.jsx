@@ -43,12 +43,12 @@ const ShowcaseSection = () => {
                     {/* left side */}
                     <div className='first-project-wrapper' ref={projectRef1}>
                         <div className='image-wrapper'>
-                            <img src='/images/project1.png' alt="Ryde" />
+                            <img src='/images/project1 (2).png' alt="E-Commerce Platform" />
                         </div>
                         <div className='text-content'>
-                            <h2>On-Demand Rides Made Simple with a Powerful, User-Friendly App called Ryde</h2>
+                            <h2>Built a modern, high-performance e-commerce platform that provides a seamless shopping experience.</h2>
                             <p className='text-white-50 md:text-xl'>
-                                An app built with React Native, Node.js, Express, and MongoDB, offering seamless ride-hailing services. It features real-time tracking, secure payments, and a user-friendly interface for both riders and drivers.
+                                An website built with React , Node.js, Express, and MongoDB, offering seamless shopping services. It features secure payments, and a user-friendly interface for both user and admin.
                             </p>
                         </div>
                     </div>
@@ -56,15 +56,15 @@ const ShowcaseSection = () => {
                     <div className='project-list-wrapper overflow-hidden'>
                         <div className='project' ref={projectRef2}>
                             <div className='image-wrapper bg-[#ffefdb]'>
-                                <img src="/images/project2.png" alt="Library Management Platform" />
+                                <img src="/images/project2 (2).png" alt="Netflix Clone" />
                             </div>
-                            <h2>Library Management Platform</h2>
+                            <h2>Netflix Clone</h2>
                         </div>
                         <div className='project' ref={projectRef3}>
                             <div className='image-wrapper bg-[#ffe7eb]'>
-                                <img src="/images/project3.png" alt="YC Directory" />
+                                <img src="/images/project3 (2).png" alt="Keeper App" />
                             </div>
-                            <h2>YC Directory- A Startup Showcase App</h2>
+                            <h2>Keeper App - Where you put what you don't remember</h2>
                         </div>
                     </div>
                 </div>

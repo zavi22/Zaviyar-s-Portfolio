@@ -1,3 +1,14 @@
+import javascript from "../assets/tech/javascript.png";
+import html from "../assets/tech/html.png";
+import css from "../assets/tech/css.png";
+import reactjs from "../assets/tech/reactjs.png";
+import tailwind from "../assets/tech/tailwind.png";
+import nodejs from "../assets/tech/nodejs.png";
+import mongodb from "../assets/tech/mongodb.png";
+import threejs from "../assets/tech/threejs.svg";
+import git from "../assets/tech/git.png";
+import figma from "../assets/tech/figma.png";
+
 const navLinks = [
   {
     name: "Work",
@@ -14,6 +25,51 @@ const navLinks = [
   {
     name: "Testimonials",
     link: "#testimonials",
+  },
+];
+
+const technologies = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
   },
 ];
 
@@ -124,40 +180,41 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+      "Zaviyar brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    imgPath: "/images/logos/logo_white_letters.png",
+    logoPath: "/images/logos/logo_white_letters1.png",
+    title: "Full Stack Developer",
+    date: "Sep 2023 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
+      "Developed and maintained user-facing features for the Taxon Technology website.",
       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
       "Optimized web applications for maximum speed and scalability.",
     ],
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+      "Zaviyar's contributions to IntelIK have been outstanding. He approaches challenges with a problem-solving mindset.",
+    imgPath: "/images/logos/company-logo-2.png",
+    logoPath: "/images/logos/company-logo-2.png",
+    title: "Frontend Developer",
+    date: "Jan 2025 - Jun 2025",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Developed responsive web interfaces with React, improving user experience across all devices.",
+      "Collaborated with designers to implement intuitive UI/UX, increasing feature adoption and engagement.",
+      "Maintained high-quality, reusable code through code reviews and best practices.",
     ],
   },
   {
     review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+      "Zaviyar's work in Corefore Tech brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    imgPath: "/images/logos/company-logo-3.png",
+    logoPath: "/images/logos/company-logo-3(1).png",
+    title: "Frontend Developer",
+    date: "Apr 2025 - Aug 2025",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
+      "Developed responsive web interfaces with React, improving user experience across all devices.",
+      "Collaborated with designers to implement intuitive UI/UX, increasing feature adoption and engagement.",
+      "Maintained high-quality, reusable code through code reviews and best practices.",
       "Coordinated with the product team to implement features based on feedback.",
     ],
   },
@@ -258,4 +315,5 @@ export {
   techStackIcons,
   techStackImgs,
   navLinks,
+  technologies,
 };
