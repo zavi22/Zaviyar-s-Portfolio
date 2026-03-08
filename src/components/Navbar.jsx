@@ -35,7 +35,7 @@ const Navbar = () => {
                     </ul>
                 </nav>
                 <a href="#contact" className='contact-btn group'>
-                    <div className='inner'>
+                    <div className='inner' href='#contact'>
                         <span>Contact me</span>
                     </div>
                 </a>

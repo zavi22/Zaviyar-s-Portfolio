@@ -71,7 +71,7 @@ const HeroExperience = () => {
 
             <group
                 scale={isMobile ? 0.7 : 1}
-                position={[0, -3.5, 0]}
+                position={[0, isMobile ? -5 : isTablet ? -6 : -3.5, 0]}
                 rotation={[0, -Math.PI / 4, 0]}
             >
                 <Room onModelClick={() => {

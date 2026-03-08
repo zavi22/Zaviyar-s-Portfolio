@@ -20,7 +20,7 @@ const ExperienceSection = () => {
                 opacity: 0,
                 duration: 1,
                 transformOrigin: 'left left',
-                ease: 'power2.inOut',
+                ease: 'power2.out',
                 scrollTrigger:{
                     trigger: card,
                     start: 'top 80%',
