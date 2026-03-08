@@ -9,6 +9,7 @@ import Tech from './sections/Tech'
 import Testimonials from './sections/Testimonials'
 import Contact from './sections/Contact'
 import StarsCanvas from './components/Canvas/Stars'
+import Footer from './sections/Footer'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
     <div className='relative z-0'>
       <Contact />
       <StarsCanvas />
+       <Footer />
     </div>
     </>
   )
