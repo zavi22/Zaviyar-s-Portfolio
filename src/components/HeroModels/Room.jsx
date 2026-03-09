@@ -9,7 +9,7 @@ import { EffectComposer, SelectiveBloom } from "@react-three/postprocessing";
 import { BlendFunction } from "postprocessing";
 import * as THREE from "three";
 
-export function Room({onModelClick, ...props}) {
+export function Room(props) {
   const { nodes, materials } = useGLTF("/models/optimized-room.glb");
   const screensRef = useRef();
   const matcapTexture = useTexture("/images/textures/mat1.png");
@@ -43,7 +43,7 @@ export function Room({onModelClick, ...props}) {
   });
 
   return (
-    <group {...props} dispose={null} onClick={onModelClick}>
+    <group {...props} dispose={null}>
       <EffectComposer>
         <SelectiveBloom
           selection={screensRef}

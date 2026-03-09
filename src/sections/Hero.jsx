@@ -1,6 +1,6 @@
-import React, { use } from 'react'
+import React from 'react'
 import { words } from '../constants/index'
-import Button from '../components/button'
+import Button from '../components/Button.jsx'
 import HeroExperience from '../components/HeroModels/HeroExperience'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
@@ -63,7 +63,7 @@ const Hero = () => {
                     </div>
                 </header>
 
-                {/* right: 3D Model */}
+                right: 3D Model
                 <figure>
                     <div className='hero-3d-layout'>
                         <HeroExperience />
