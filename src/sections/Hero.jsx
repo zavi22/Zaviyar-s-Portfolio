@@ -38,7 +38,7 @@ const Hero = () => {
                                 <span className='slide'>
                                     <span className='wrapper'>
                                         {words.map((word) =>
-                                            <span className='flex items-center md:gap-3 gap-1 pb-2' key={word.text}>
+                                            <span className='flex items-center md:gap-3 gap-1 pb-2' key={word.id}>
                                                 <img
                                                     src={word.imgPath}
                                                     alt={word.text}

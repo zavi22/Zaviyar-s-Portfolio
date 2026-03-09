@@ -74,21 +74,21 @@ const technologies = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: "/images/ideas.svg", id: 1, },
+  { text: "Concepts", imgPath: "/images/concepts.svg", id: 2, },
+  { text: "Designs", imgPath: "/images/designs.svg", id: 3, },
+  { text: "Code", imgPath: "/images/code.svg", id: 4, },
+  { text: "Ideas", imgPath: "/images/ideas.svg", id: 5, },
+  { text: "Concepts", imgPath: "/images/concepts.svg", id: 6, },
+  { text: "Designs", imgPath: "/images/designs.svg", id: 7, },
+  { text: "Code", imgPath: "/images/code.svg", id: 8, },
 ];
 
 const counterItems = [
-  { value: 3, suffix: "+", label: "Years of Experience" },
-  { value: 10, suffix: "+", label: "Satisfied Clients" },
-  { value: 8, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { id: 1, value: 3, suffix: "+", label: "Years of Experience" },
+  { id: 2, value: 10, suffix: "+", label: "Satisfied Clients" },
+  { id: 3, value: 8, suffix: "+", label: "Completed Projects" },
+  { id: 4, value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
 const logoIconsList = [
@@ -179,6 +179,7 @@ const techStackIcons = [
 
 const expCards = [
   {
+    id: 1,
     review:
       "Zaviyar brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/images/logos/logo_white_letters.png",
@@ -192,6 +193,7 @@ const expCards = [
     ],
   },
   {
+    id: 2,
     review:
       "Zaviyar's contributions to IntelIK have been outstanding. He approaches challenges with a problem-solving mindset.",
     imgPath: "/images/logos/company-logo-2.png",
@@ -205,6 +207,7 @@ const expCards = [
     ],
   },
   {
+    id: 3,
     review:
       "Zaviyar's work in Corefore Tech brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
     imgPath: "/images/logos/company-logo-3.png",

@@ -65,7 +65,7 @@ const ExperienceSection = () => {
                     <div className='relative z-50 xl:space-y-32 space-y-10'>
                         {expCards.map((card, index) => {
                             return (
-                                <div key={card.title} className='exp-card-wrapper'>
+                                <div key={card.id} className='exp-card-wrapper'>
                                     <div className='xl:w-2/6'>
                                         <GlowCard card={card} index={index}>
                                             <div key={index}>
