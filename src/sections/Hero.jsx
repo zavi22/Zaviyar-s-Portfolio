@@ -65,7 +65,7 @@ const Hero = () => {
 
         {/* RIGHT: 3D Model or Visual */}
         <figure>
-          <div className="">
+          <div className="hero-3d-layout">
             <ProfileCard />
           </div>
         </figure>
