@@ -22,11 +22,11 @@ const App = () => {
     <ExperienceSection />
     <Tech />
     <Testimonials />
-    {/* <div className='relative z-0'>
+    <div className='relative z-0'>
       <Contact />
       <StarsCanvas />
        <Footer />
-    </div> */}
+    </div>
     </>
   )
 }
