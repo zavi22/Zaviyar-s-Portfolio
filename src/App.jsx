@@ -15,7 +15,7 @@ const App = () => {
   return (
     <>
     <Navbar />
-    <Hero />
+    {/* <Hero /> */}
     <ShowcaseSection />
     <LogoSection  /> 
     <FeaturedCards />
