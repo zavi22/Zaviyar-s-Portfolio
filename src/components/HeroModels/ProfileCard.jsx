@@ -1,15 +1,43 @@
 import { Code, Braces } from 'lucide-react';
 import profileImage from '../../assets/zaviyar.jpeg';
+import gsap from "gsap"
+import { useEffect, useRef } from "react"
 
 function ProfileCard() {
+
+  const codeIcon = useRef()
+  const bracesIcon = useRef()
+
+  useEffect(() => {
+
+  gsap.to(codeIcon.current,{
+    y:20,
+    rotation:10,
+    duration:3,
+    repeat:-1,
+    yoyo:true,
+    ease:"sine.inOut"
+  })
+
+  gsap.to(bracesIcon.current,{
+    y:-20,
+    rotation:-10,
+    duration:3,
+    repeat:-1,
+    yoyo:true,
+    ease:"sine.inOut"
+  })
+
+},[])
+
   return (
     <div className="relative w-full flex justify-center items-center min-h-[400px] p-4 sm:p-8">
       <div className="relative">
-        <div className="absolute -top-6 sm:-top-8 -left-6 sm:-left-8 w-12 sm:w-16 h-12 sm:h-16 bg-slate-700/50 backdrop-blur-sm rounded-2xl flex items-center justify-center animate-float">
+        <div ref={codeIcon} className="absolute -top-6 sm:-top-8 -left-6 sm:-left-8 w-12 sm:w-16 h-12 sm:h-16 bg-slate-700/50 backdrop-blur-sm rounded-2xl flex items-center justify-center">
           <Code className="w-6 sm:w-8 h-6 sm:h-8 text-slate-300" />
         </div>
 
-        <div className="absolute -top-6 sm:-top-8 -right-6 sm:-right-8 w-12 sm:w-16 h-12 sm:h-16 bg-slate-700/50 backdrop-blur-sm rounded-2xl flex items-center justify-center animate-float-delayed">
+        <div ref={bracesIcon} className="absolute -top-6 sm:-top-8 -right-6 sm:-right-8 w-12 sm:w-16 h-12 sm:h-16 bg-slate-700/50 backdrop-blur-sm rounded-2xl flex items-center justify-center">
           <Braces className="w-6 sm:w-8 h-6 sm:h-8 text-slate-300" />
         </div>
 
