@@ -10,8 +10,8 @@ const Tech = () => {
           <div id='skills' className='relative z-50 space-y-10'>
             <Title title='How I Contribute & My Key Skills' sub='What I Bring To The Table' />
             <div className='flex flex-row flex-wrap justify-center gap-10'>
-              {technologies.map((technology) => (
-                <div className='w-28 h-28' key={technology.name}>
+              {technologies.map((technology, index) => (
+                <div className='w-28 h-28' key={index}>
                   <BallCanvas icon={technology.icon} />
                 </div>
               ))}
