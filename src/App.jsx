@@ -17,10 +17,10 @@ const App = () => {
     <Navbar />
     <Hero />
     <ShowcaseSection />
+    <Tech />
     <LogoSection  /> 
     <FeaturedCards />
     <ExperienceSection />
-    <Tech />
     <Testimonials />
     <div className='relative z-0'>
       <Contact />
