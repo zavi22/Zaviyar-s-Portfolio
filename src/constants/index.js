@@ -241,7 +241,7 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Megan Dire",
+    name: "Michael Black",
     // mentions: "@estherhoward",
     review:
       "I can’t say enough good things about Zaviyar. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
